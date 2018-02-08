@@ -18,5 +18,34 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		int date= new java.util.Scanner(System.in).nextInt();
+
+		switch(date) {
+		case 0:
+			System.out.print("日曜");
+			break;
+		case 1:
+			System.out.print("月曜");
+			break;
+		case 2:
+			System.out.print("火曜");
+			break;
+		case 3:
+			System.out.print("水曜");
+			break;
+		case 4:
+			System.out.print("木曜");
+			break;
+		case 5:
+			System.out.print("金曜");
+			break;
+		case 6:
+			System.out.print("土曜");
+			break;
+		default:
+			System.out.print("0～6の整数を入力してください");
+		}
+
+
 	}
 }
